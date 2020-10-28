@@ -1,0 +1,88 @@
+body {
+
+}
+
+.card{
+	border: none;
+}
+
+.card:hover{
+	border-radius: 18px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+.card-img-top{
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+
+}
+
+.row{
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+.carousel .carousel-item {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel .carousel-item:first-of-type {
+    background-image: url("../IMG/prebuiltpcsmainlandingpage/1.jpg");
+}
+
+.carousel .carousel-item:nth-of-type(2) {
+    background-image: url("../IMG/prebuiltpcsmainlandingpage/2.jpg");
+}
+
+.carousel .carousel-item:last-of-type {
+    background-image: url("../IMG/prebuiltpcsmainlandingpage/3.jpg");
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.nav-link.active,.nav-link:focus{
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
